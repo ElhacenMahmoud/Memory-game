@@ -27,6 +27,9 @@ Play a game of memory with this interactive web application! Flip over tiles to 
 * JavaScript (with DOM manipulation and event listeners)
 * No frameworks or libraries used.
 
+  **Screenshot**
+  ![Screenshot 2024-05-25 203804](https://github.com/ElhacenMahmoud/Memory-game/assets/156904270/d5d668a5-da79-4672-bc7c-6f19fefe2b13)
+
 **Contributing:**
 
 Feel free to fork and modify this repository to create your own version of the Memory Game. If you'd like to contribute to this repository, please open a pull request with your changes.
