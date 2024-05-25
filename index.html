@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="control-buttons">
+      <span>Start Game</span>
+    </div>
+
+    <div class="info-container">
+      <div class="name">Hello: <span></span></div>
+      <div id="countdown"></div>
+      <div class="tries">wrong tries: <span>0</span></div>
+    </div>
+    <div class="memory-game-blocks">
+      <div class="game-block" data-technology="Cpp">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./imgs/c-.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="Cpp">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./imgs/c-.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="css3">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./imgs/css3.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="css3">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./imgs/css3.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="git">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./imgs/git.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="git">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./imgs/git.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="github">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./imgs/github.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="github">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./imgs/github.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="html5">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./imgs/html5.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="html5">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./imgs/html5.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="js">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./imgs/js.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="js">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./imgs/js.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="python">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./imgs/python.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="python">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./imgs/python.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="react">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./imgs/react.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="react">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./imgs/react.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="sass">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./imgs/sass.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="sass">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./imgs/sass.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="vue-js">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./imgs/vue-js.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="vue-js">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./imgs/vue-js.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="congrats-popup">
+      <h2 id="congrats-message"></h2>
+      <button id="play-again-button">Play Again!</button>
+    </div>
+    <div class="game-over-popup">
+      <h2 id="game-over-message"></h2>
+      <button id="play-again">Play Again!</button>
+    </div>
+    <audio id="success" src="sounds/success-1.mp3" preload="auto"></audio>
+    <audio id="fail" src="sounds/fail-1.mp3" preload="auto"></audio>
+    <audio id="full-success" src="sounds/success-2.mp3" preload="auto"></audio>
+    <audio id="End-Game" src="sounds/fail-2.mp3" preload="auto"></audio>
+    <script src="./main.js"></script>
+  </body>
+</html>
